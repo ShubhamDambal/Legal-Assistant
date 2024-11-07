@@ -11,11 +11,11 @@ const About = () => {
           className="w-32 h-32 mx-auto rounded-full"
         />
         <h1 className="text-2xl font-semibold text-gray-800 mt-4 justify-center flex">About</h1>
-        <h2 className="text-lg text-gray-600 mt-2 justify-center flex">DocBuddy-Legal document generating AI platform.</h2>
+        <h2 className="text-lg text-gray-600 mt-2 justify-center flex">Legal Assistant</h2>
         <p className="text-gray-700 mt-4">
-        We propose a web-based solution, where the user (i.e.  small businesses or individuals) can prompt their situation or choose the type of legal document they wish to draft. Based on 
-        <br />the choice made, the user will be asked to answer a few required questions such as name of parties involved, date etc. The users will then be guided through a few essential questions, <br />
-        like the names of parties involved. Then, our system seamlessly integrates their inputs into our comprehensive legal databases, streamlining the otherwise complex <br /> and time-consuming document drafting process.
+        We propose a web-based platform tailored for individuals and small businesses to streamline the creation of legal documents. Users can describe their situation or select a specific 
+        <br />document type, with the assistance of an integrated chatbot that helps guide them to the appropriate legal document. Once selected, users will be prompted to provide essential <br />
+        information—such as party names and dates—through a few straightforward questions. The system then seamlessly integrates these inputs into our extensive legal database, significantly<br /> simplifying the typically complex and time-consuming document drafting process.
 
         </p>
       </div>

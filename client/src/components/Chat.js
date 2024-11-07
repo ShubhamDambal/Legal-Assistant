@@ -99,7 +99,7 @@ function Chat() {
                 <div className="flex gap-3 items-center ml-2">
                   <div className="rounded-full">
                     <img
-                      src={process.env.PUBLIC_URL + "/law.png"}
+                      src={process.env.PUBLIC_URL + "/law2.jpg"}
                       className="h-8 w-8"
                     />
                   </div>
