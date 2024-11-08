@@ -10,7 +10,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 
-function Navbar() {
+function Navbar({ toggleSidebar }) {
   const [openNav, setOpenNav] = useState(false);
   const navigate = useNavigate();
   useEffect(() => {
@@ -72,6 +72,7 @@ function Navbar() {
           >
             DocBuddy
           </Typography> */}
+          <button id="menu" onClick={toggleSidebar}>☰</button>
           <Link to="/" className="mr-4 cursor-pointer py-1.5 font-bold text-2xl  font-serif">
             Legal-Assistant
           </Link>

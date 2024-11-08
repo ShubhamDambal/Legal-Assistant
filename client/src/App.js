@@ -16,13 +16,22 @@ import Login from "./loginPage";
 import Signup from "./signup";
 import { ContextProvider } from "./context/StepContext";
 import Chat from "./components/Chat";
+import Sidebar from "./Sidebar";
+import { useState } from "react";
 
 function App() {
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  // Function to toggle the sidebar width
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
   return (
     <>
       <ContextProvider>
         <Router>
-          <Navbar />
+          <Navbar toggleSidebar={toggleSidebar}/>
+          <Sidebar isSidebarOpen={isSidebarOpen}/>
           <Chat />
           <Routes>
             <Route path="/" element={<Home />} />
